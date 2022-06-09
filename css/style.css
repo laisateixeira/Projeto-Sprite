@@ -1,0 +1,19 @@
+#anima-div{
+    background: url("../img/nha.png") -0px;
+    width: 190px;
+    height: 153px;
+    animation: anima-sprite 1s steps(8) infinite;
+    position: relative;
+    left: 45%;
+    top: 300px;
+}
+/*
+@keyframes anima-sprite{
+    from{background-position: 0px;}
+    to{background-position: -1920px;}
+}*/
+
+@keyframes anima-sprite{
+    100%{background-position-x: -1528px;}
+}
+
